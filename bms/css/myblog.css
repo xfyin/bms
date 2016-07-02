@@ -1,0 +1,80 @@
+﻿.head  .navi{
+	width:90%;
+	height:32px;
+	text-align:center;
+	float:right
+}
+.navi a{
+	text-decoration: none;
+}
+.navi ul{
+	margin:4px;
+}
+.navi ul li{
+	width:130px;
+	text-align:center;
+	float:left;
+	list-style:none;
+}
+.my_content{
+	width:960px;
+	height:501px;
+	background-color:#F5DEB3;
+}
+.my_content .new_blog tr{
+	display:block;
+	margin:10px 0;
+}
+#editor {
+	resize:vertical; 
+	overflow:auto; 
+	border:1px solid silver; 
+	border-radius:5px; 
+	min-height:305px;
+	box-shadow: inset 0 0 10px silver;
+	background-color:#FFFFE0;
+}
+.my_content .mybolg{
+	width:48px;
+	text-align:right;
+	padding:0px 10px;
+}
+.my_content .mybolg2 input{
+	width:650px;
+	margin-left:40px;
+	background-color:#FFFFE0;
+}
+.new_blog   .null_sub{
+	visibility:hidden;
+	color:red;
+	font-size:11px;
+	font-style:italic;
+	display:block;
+	margin:4px 30px;
+}
+.new_blog_bottom{
+	text-align:center;
+	height:40px;
+	margin-top:-3px;
+}
+.new_blog_bottom input{
+	width:40px;
+}
+.new_head{
+	padding-top:3px;
+	margin:0px 10px;
+	background:#EECBAD;
+	height:34px;
+	font-size:15px;
+	line-height:34px;	
+	border-radius:5px; 
+	box-shadow: inset 0 0 10px silver;	
+}
+.content_editor{
+	width:814px;
+	height:330px;
+	max-width: 814px;
+	max-height: 330px;
+	resize: none;
+	overflow-y:auto;
+}

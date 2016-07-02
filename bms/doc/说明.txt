@@ -1,0 +1,1 @@
+利用DW建站点的时候将站点建在E:/bms，需要修改C:\AppServ\Apache2.2\conf\httpd.conf DocumentRoot "E:/bms"  
